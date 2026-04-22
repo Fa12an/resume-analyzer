@@ -111,7 +111,8 @@ function App() {
   const [currentView, setCurrentView] = useState('main');
   const [selectedCandidateIndex, setSelectedCandidateIndex] = useState(null);
   
-  const API_BASE_URL = 'https://resume-analyzer-1-pevo.onrender.com';
+  const API_BASE_URL = 'https://resume-analyzer-backend-jsqa.onrender.com';
+
   
   const keepAliveInterval = useRef(null);
   const backendWakeInterval = useRef(null);
